@@ -22,7 +22,7 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 
 ### 动态规划
 
-* [ ] 我的一些DP理解（**nbyby**）
+* [x] 我的一些DP理解（**nbyby**）
 
 ### 计算几何
 
@@ -38,7 +38,5 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 
 ### 其他
 
-* [ ] 读题套路（**nbyby**）
-
-
+* [x] 读题套路（**nbyby**）
 
