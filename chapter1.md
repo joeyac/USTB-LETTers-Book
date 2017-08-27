@@ -22,6 +22,8 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 
 ### 动态规划
 
+* [ ] 我的一些DP理解（**nbyby**）
+
 ### 计算几何
 
 ### 博弈
@@ -35,6 +37,8 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 ### 多项式计算
 
 ### 其他
+
+* [ ] 读题套路（**nbyby**）
 
 
 
