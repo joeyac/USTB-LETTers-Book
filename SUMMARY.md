@@ -22,5 +22,6 @@
 * 字符串
 * 多项式
 * [数学](shu-xue.md)
-* 语言相关
+* [其他](qi-ta.md)
+  * [读题套路（nbyby）](qi-ta/du-ti-tao-lu-ff08-nbyby.md)
 
