@@ -30,6 +30,8 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 
 ### 矩阵
 
+* [x] 矩阵类 && 常系数线性齐次递推（**crazyX**）
+
 ### 数据结构
 
 ### 字符串
