@@ -2,6 +2,11 @@
 
 * [Introduction](README.md)
 * [To Do List](chapter1.md)
+* [语言相关](yu-yan-xiang-guan.md)
+  * [Java](yu-yan-xiang-guan/java.md)
+    * [模板](yu-yan-xiang-guan/java/mo-ban.md)
+      * [大数操作](yu-yan-xiang-guan/java/mo-ban/da-shu-cao-zuo.md)
+      * [重定向输入输出](yu-yan-xiang-guan/java/mo-ban/zhong-ding-xiang-shu-ru-shu-chu.md)
 * [常见错误](chang-jian-ji-chu-cuo-wu-andand-letters-wa-check-list.md)
 * [LETTers WA Check List](chang-jian-ji-chu-cuo-wu-andand-letters-wa-check-list/letters-wa-check-list.md)
 * [基础](ji-chu.md)
@@ -17,6 +22,5 @@
 * 字符串
 * 多项式
 * [数学](shu-xue.md)
-* [其他](qi-ta.md)
-  * [读题套路（nbyby）](qi-ta/du-ti-tao-lu-ff08-nbyby.md)
+* 语言相关
 

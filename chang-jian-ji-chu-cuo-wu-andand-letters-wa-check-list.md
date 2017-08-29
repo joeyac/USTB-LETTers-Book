@@ -131,5 +131,5 @@ void dfs2(int i){ xxxxx dfs1(x);}
 
 如果各位刷题时出现闹鬼代码，欢迎编辑在此，以供后人抓鬼。
 
-
+[https://www.zhihu.com/question/64013739](https://www.zhihu.com/question/64013739 "你在做算法题时遇到过哪些蜜汁错误")
 
