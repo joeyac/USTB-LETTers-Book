@@ -18,7 +18,7 @@
 * 博弈
 * [矩阵](ju-zhen.md)
   * [矩阵类 && 常系数线性齐次递推](ju-zhen/ju-zhen-lei-andand-chang-xi-shu-xian-xing-qi-ci-di-tui.md)
-* 数据结构
+* [数据结构](shu-ju-jie-gou.md)
 * 字符串
 * 多项式
 * [数学](shu-xue.md)
