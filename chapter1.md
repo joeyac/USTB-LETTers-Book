@@ -9,7 +9,7 @@
 
 Author：based from **nbyby **and **smile**, extended by **crazyX**
 
-* [ ] LETTers WA Check List \(**nbyby** and **smile**\)
+* [x] LETTers WA Check List \(**nbyby** and **smile**\)
 * [x] Notification \(**crazyX**\)
 
 ### 基础
@@ -41,6 +41,4 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 ### 其他
 
 * [x] 读题套路（**nbyby**）
-
-
 
