@@ -12,7 +12,8 @@
 * [常见错误](chang-jian-ji-chu-cuo-wu-andand-letters-wa-check-list.md)
 * [LETTers WA Check List](chang-jian-ji-chu-cuo-wu-andand-letters-wa-check-list/letters-wa-check-list.md)
 * [基础](ji-chu.md)
-* 搜索
+  * [折半枚举](ji-chu/zhe-ban-mei-ju.md)
+* [搜索](sou-suo.md)
 * [图论](tu-lun.md)
 * [动态规划](dong-tai-gui-hua.md)
   * [我的一些DP理解（nbyby）](dong-tai-gui-hua/wo-de-yi-xie-dp-li-jie.md)
