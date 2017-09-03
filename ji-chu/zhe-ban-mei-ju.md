@@ -2,7 +2,7 @@
 
 ## Description
 
-
+我觉得是对于一些枚举量，它们之间有相互关系，以及于枚举其中一部分之后，对于后面的部分加了限制可以进行快速的操作。
 
 ## Problems
 
@@ -13,7 +13,7 @@
 ```
 # include <bits/stdc++.h>
 using namespace std;
- 
+
 # define x first
 # define y second
 # define sq(x) ((x)*(x))
@@ -22,21 +22,21 @@ using namespace std;
 # define mem(x,y) memset(x,y,sizeof(x))
 # define show(x) cerr << #x << " = " << x << endl
 # define time cerr<<"\n\n"<<"Time Spec = "<<clock()/1000.<<"s\n"
- 
+
 typedef double DB;
 typedef long long LL;
 typedef pair<int, int> Pr;
 typedef unsigned long long U;
- 
+
 const LL INF = 0x3f3f3f3f;
 const DB EPS = 1e-8;
 const int N = 2e6 + 100;
 const int M = 110;
 const int MOD = 1e9 + 7;
- 
+
 int a[10][M], k, m;
 int num[10];
- 
+
 int b[N], cnt;
 void init_map(int i, LL val) {
     if (i == k || i == 3)
@@ -46,7 +46,7 @@ void init_map(int i, LL val) {
             init_map(i + 1, val + a[i][j]);
     }
 }
- 
+
 vector<int> v, tim;
 LL dfs(int i, LL val) {
     if (i == k) {
@@ -55,21 +55,21 @@ LL dfs(int i, LL val) {
             return cnt;
         return cnt - tim[tmp - 1];
     }
- 
+
     LL ret = 0;
     for (int j = 0; j < num[i]; j++) {
         ret += dfs(i + 1, val + a[i][j]);
     }
     return ret;
 }
- 
- 
+
+
 int main() {
 # ifdef owly
     freopen("in.txt", "r", stdin);
     // freopen("ou.txt", "w", stdout);
 # endif
- 
+
     while (~scanf("%d%d", &k, &m)) {
         for (int i = 0; i < k; i++) {
             scanf("%d", &num[i]);
@@ -77,7 +77,7 @@ int main() {
                 scanf("%d", &a[i][j]);
             a[i][num[i] ++] = 0;
         }
- 
+
         v.clear();
         tim.clear();
         cnt = 0;
@@ -104,11 +104,11 @@ int main() {
             tim.push_back(j);
             for (int i = 1; i < (int)v.size(); i++)
                 tim[i] += tim[i - 1];
- 
+
             printf("%lld\n", dfs(3, 0));
         }
     }
- 
+
     return 0;
 }
 ```
