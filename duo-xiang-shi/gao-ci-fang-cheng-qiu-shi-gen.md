@@ -5,7 +5,7 @@ plugins:
 
 # 高次方程求实根
 
-求出形如 $a\[n\] \* x^n + a\[n-1\] \* x^\(n-1\) + ... + a\[1\] \* x + a\[0\]$ 的方程的解
+求出形如 $$a\[n\] \* x^n + a\[n-1\] \* x^\(n-1\) + ... + a\[1\] \* x + a\[0\]$$ 的方程的解
 
 ### 调用接口：
 
@@ -13,11 +13,11 @@ plugins:
 equation(vector<double> coef,int n)
 ```
 
-其中$coef$为$a\[0\]~a\[n\]$，$n$为最高次幂幂数
+其中$$coef$为$a\[0\]~a\[n\]$$，$$n$$为最高次幂幂数
 
 ### 调用示范：
 
-解方程$x^2-2x+1=0$:
+解方程$$x^2-2x+1=0$$:
 
 ```cpp
 vector<double> test;
@@ -26,7 +26,7 @@ test.pb(-2);
 test.pb(1);
 test =  equation(test, 2);
 for (int i = 0; i < SZ(test); i += 1) 
-	printf("%.2f\n",test[i]);
+    printf("%.2f\n",test[i]);
 ```
 
 ### 模板：
