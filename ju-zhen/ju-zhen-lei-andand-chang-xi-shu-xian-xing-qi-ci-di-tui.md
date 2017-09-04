@@ -24,7 +24,7 @@ struct matrix{
                 (*this)[i][i] = 1;
     }
     matrix(int _n){n = _n;this->init();}
-    vector<var> operator [] (int i){return a[i];}
+    vector<var>& operator [] (int i){return a[i];}
 
     matrix operator * (matrix y){
         assert(n==y.n);
