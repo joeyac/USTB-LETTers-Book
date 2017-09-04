@@ -1,3 +1,8 @@
+---
+plugins:
+  - mathjax
+---
+
 # To Do List
 
 ### 语言相关
