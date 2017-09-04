@@ -5,7 +5,7 @@ plugins:
 
 # 高次方程求实根
 
-求出形如{% math %} a\[n\] \* x^n + a\[n-1\] \* x^\(n-1\) + ... + a\[1\] \* x + a\[0\] {% endmath %}的方程的解
+求出形如 $$a[n] * x^n + a[n-1] * x^{n-1} + ... + a[1] * x + a[0]$$ 的方程的解
 
 ### 调用接口：
 
@@ -17,7 +17,7 @@ equation(vector<double> coef,int n)
 
 ### 调用示范：
 
-解方程$$x^2-2x+1=0$$:
+解方程 $$x^2-2x+1=0$$:
 
 ```cpp
 vector<double> test;
