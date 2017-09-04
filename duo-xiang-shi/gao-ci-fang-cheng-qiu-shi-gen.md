@@ -13,7 +13,7 @@ plugins:
 equation(vector<double> coef,int n)
 ```
 
-其中 $$ coef $$ 为 $$ a\[0\] to a\[n\] , n $$ 最高次幂幂数
+其中 $$ coef $$ 为 $$ a[0] \to a[n] , n $$ 最高次幂幂数
 
 ### 调用示范：
 
