@@ -22,8 +22,9 @@
 * [矩阵](ju-zhen.md)
   * [矩阵类 && 常系数线性齐次递推](ju-zhen/ju-zhen-lei-andand-chang-xi-shu-xian-xing-qi-ci-di-tui.md)
 * [数据结构](shu-ju-jie-gou.md)
-* 字符串
-* 多项式
+* [字符串](zi-fu-chuan.md)
+* [多项式](duo-xiang-shi.md)
+  * [高次方程求实根](duo-xiang-shi/gao-ci-fang-cheng-qiu-shi-gen.md)
 * [数学](shu-xue.md)
 * [其他](qi-ta.md)
   * [读题套路（nbyby）](qi-ta/du-ti-tao-lu-ff08-nbyby.md)
