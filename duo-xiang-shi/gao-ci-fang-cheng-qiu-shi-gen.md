@@ -1,6 +1,6 @@
 ---
 plugins:
-  - katex
+  - mathjax
 ---
 
 # 高次方程求实根
