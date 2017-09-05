@@ -12,7 +12,19 @@
 
 将位置相同的子串分为同一组：
 
-{0,2} - a       {1,3} - b、ab       {4,5} - c     {2} - {ba、aba}      {3} - {bab、abab}                                                                                                                 {4} - {bc、abc、babc、ababc}         {5} - {cc、bcc、abcc、babcc、ababcc}
+{0,2} - a   
+
+{1,3} - b、ab    
+
+{4,5} - c  
+
+{2} - {ba、aba}    
+
+{3} - {bab、abab}                                                        
+
+{4} - {bc、abc、babc、ababc}     
+
+{5} - {cc、bcc、abcc、babcc、ababcc} 
 
 将其作为自动机的状态，再加一个初始状态，画出这个自动机，就是这样
 
