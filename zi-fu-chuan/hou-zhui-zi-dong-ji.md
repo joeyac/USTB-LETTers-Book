@@ -6,8 +6,6 @@
 
 可以参考 陈立杰的ppt [https://wenku.baidu.com/view/fa02d3fff111f18582d05a81.html](https://wenku.baidu.com/view/fa02d3fff111f18582d05a81.html) 以及 [http://blog.csdn.net/qq\_35649707/article/details/66473069](http://blog.csdn.net/qq_35649707/article/details/66473069) 学习
 
-以下只是帮助理解。
-
 设有一个字符串ababcc，现求出它的所以子串和其在原字符串中出现的位置：a{0,2}、b{1,3}、c{4,5}、ab{1,3}、ba{2}、bc{4}、cc{5}、aba{2}、bab{3}、abc{4}、bcc{5}、abab{3}、babc{4}、abcc{5}、ababc{4}、babcc{5}、ababcc{5}
 
 将位置相同的子串分为同一组：
