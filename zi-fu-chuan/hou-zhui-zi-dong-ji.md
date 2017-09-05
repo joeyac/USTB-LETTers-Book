@@ -12,19 +12,19 @@
 
 将位置相同的子串分为同一组：
 
-{0,2} - a   
+{0,2} - a
 
-{1,3} - b、ab    
+{1,3} - b、ab
 
-{4,5} - c  
+{4,5} - c
 
-{2} - {ba、aba}    
+{2} - {ba、aba}
 
-{3} - {bab、abab}                                                        
+{3} - {bab、abab}
 
-{4} - {bc、abc、babc、ababc}     
+{4} - {bc、abc、babc、ababc}
 
-{5} - {cc、bcc、abcc、babcc、ababcc} 
+{5} - {cc、bcc、abcc、babcc、ababcc}
 
 将其作为自动机的状态，再加一个初始状态，画出这个自动机，就是这样
 
@@ -141,7 +141,7 @@ struct SAM {
 
 [http://acm.hdu.edu.cn/showproblem.php?pid=1403](http://acm.hdu.edu.cn/showproblem.php?pid=1403 "Longest Common Substring")
 
-**思路 对于串s和t，先对s建立后缀自动机，用后缀自动机读入串t，同时维护一下当前匹配的长度，如果失配就顺着parent树走，直到root或有相应的后继，同时用当前结点 的max\_len来更新当前匹配的长度。**
+**思路 **对于串s和t，先对s建立后缀自动机，用后缀自动机读入串t，同时维护一下当前匹配的长度，如果失配就顺着parent树走，直到root或有相应的后继，同时用当前结点 的max\_len来更新当前匹配的长度。
 
 **代码**
 
