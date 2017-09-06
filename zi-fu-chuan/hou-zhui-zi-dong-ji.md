@@ -139,7 +139,7 @@ struct SAM {
 
 [http://acm.hdu.edu.cn/showproblem.php?pid=1403](http://acm.hdu.edu.cn/showproblem.php?pid=1403 "Longest Common Substring")
 
-**思路 **对于串s和t，先对s建立后缀自动机，用后缀自动机读入串t，同时维护一下当前匹配的长度，如果失配就顺着parent树走，直到root或有相应的后继，同时用当前结点 的max\_len来更新当前匹配的长度。
+对于串s和t，先对s建立后缀自动机，用后缀自动机读入串t，同时维护一下当前匹配的长度，如果失配就顺着parent树走，直到root或有相应的后继，同时用当前结点 的max\_len来更新当前匹配的长度。
 
 **代码**
 
