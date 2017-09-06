@@ -115,5 +115,5 @@ int main()
 
 $$C_m^n = \frac {m!} {n!(m - n)!} = \frac {m}{m - n} \frac {(m - 1)!}{n!(m-n)!} = \frac {m - n + 1} {n} \frac {m!} {(n-1)!}{(n - m + 1)!}$$
 
-即 $$C_m^n = \frac {m} {m - n} C_{m-1}^n = \frac {m - n +_ 1} {n} _$$
+即 $$C_m^n = \frac {m} {m - n} C_{m-1}^n = \frac {m - n +_ 1} {n} _$$ 
 
