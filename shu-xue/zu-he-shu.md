@@ -111,5 +111,5 @@ int main()
 
 **n和m都是1e9的情况**
 
-找题目包含的其它性质，比如[http://acm.hdu.edu.cn/showproblem.php?pid=6084](http://acm.hdu.edu.cn/showproblem.php?pid=6084) 就是要求 $$C_{n-\|S\|+1}{\frac{n-\|S\|}{2} + 1}$$
+找题目包含的其它性质，比如[http://acm.hdu.edu.cn/showproblem.php?pid=6084](http://acm.hdu.edu.cn/showproblem.php?pid=6084) 就是要求 $$C_{n-|S|+1}^{\frac{n-|S|}{2} + 1}$$
 
