@@ -24,6 +24,7 @@
 * [数据结构](shu-ju-jie-gou.md)
 * [字符串](zi-fu-chuan.md)
   * [后缀自动机](zi-fu-chuan/hou-zhui-zi-dong-ji.md)
+  * [后缀数组](zi-fu-chuan/hou-zhui-shu-zu.md)
 * [多项式](duo-xiang-shi.md)
   * [高次方程求实根](duo-xiang-shi/gao-ci-fang-cheng-qiu-shi-gen.md)
 * [数学](shu-xue.md)
