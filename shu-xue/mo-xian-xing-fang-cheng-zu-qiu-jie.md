@@ -106,6 +106,35 @@ long long solve(){
     }
     return R;
 }
+
+//下面是一元线性同余方程求解
+typedef long long ll;
+ll extend_gcd(ll a,ll b,ll &x,ll &y)
+{ 
+    ll d=a;
+    if(b!=0)
+    {
+        d=extend_gcd(b,a%b,y,x);
+        y-=(a/b)*x;
+    }
+    else 
+    {
+        x=1;
+        y=0;
+    }
+    return d;
+}
+ll linear(ll a,ll b,ll c)//求解一元线性同余方程ax=b(mod c)
+{
+    ll x,y;
+    ll g=extend_gcd(a,c,x,y);
+    if(b%g)//无解 
+        return -1;
+    x=x*(b/g);
+    ll mod=c/g;
+    x=(x%mod+mod)%mod;
+    return x;
+}
 ```
 
 
