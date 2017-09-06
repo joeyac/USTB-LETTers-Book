@@ -49,7 +49,7 @@ void da(int str[], int sa[], int rank[], int height[], int n, int m) {
 
 [http://acm.hdu.edu.cn/showproblem.php?pid=1403](http://acm.hdu.edu.cn/showproblem.php?pid=1403)
 
-**思路** 模板题
+模板题
 
 ```cpp
 # include <bits/stdc++.h>
