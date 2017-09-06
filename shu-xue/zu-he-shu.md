@@ -115,5 +115,5 @@ int main()
 
 比如[http://acm.hdu.edu.cn/showproblem.php?pid=6084](http://acm.hdu.edu.cn/showproblem.php?pid=6084) 就是要求 $$C_{n-|S|+1}^{\frac{n-|S|}{2} + 1}$$
 
-令$$x = \frac{n-|S|}{2} + 1$$$$，所以题目求 $$$$C_{2x-1}^x = \frac {C_{2x}^x} {2} = $$
+令$$x = \frac{n-|S|}{2} + 1$$$$，所以题目求 $$$$C_{2x-1}^x = \frac {C_{2x}^x} {2} = F(x) \frac {x + 1} { 2}$$，而 $$F\(n\) = \frac {2\(2n-1\)F\(n-1\)} {n+1}$$
 
