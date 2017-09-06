@@ -19,6 +19,7 @@
   * [我的一些DP理解（nbyby）](dong-tai-gui-hua/wo-de-yi-xie-dp-li-jie.md)
 * [数学](shu-xue.md)
   * [组合数](shu-xue/zu-he-shu.md)
+  * [模线性方程组求解](shu-xue/mo-xian-xing-fang-cheng-zu-qiu-jie.md)
 * [博弈](bo-yi.md)
 * [矩阵](ju-zhen.md)
   * [矩阵类 && 常系数线性齐次递推](ju-zhen/ju-zhen-lei-andand-chang-xi-shu-xian-xing-qi-ci-di-tui.md)
