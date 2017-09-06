@@ -1,7 +1,5 @@
 # 后缀数组
 
-## Description
-
 ## Template
 
 ```cpp
@@ -153,7 +151,6 @@ int main() {
 
     return 0;
 }
-
 ```
 
 
