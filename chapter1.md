@@ -41,6 +41,8 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 
 * [ ] Splay
 * [ ] LCT
+* [ ] KD-Tree
+* [ ] DLX
 
 ### 字符串
 
