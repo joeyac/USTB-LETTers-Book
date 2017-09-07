@@ -75,6 +75,8 @@ struct Trie {
 
 [http://acm.hdu.edu.cn/showproblem.php?pid=3247](http://acm.hdu.edu.cn/showproblem.php?pid=3247)
 
+
+
 ```cpp
 # include <bits/stdc++.h>
 using namespace std;
