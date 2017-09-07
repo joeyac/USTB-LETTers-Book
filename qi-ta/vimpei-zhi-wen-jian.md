@@ -8,7 +8,7 @@
 
 **\[\[** 输入{ }
 
-**F3 **显示自定义模版
+**F3 **显示自定义模板
 
 ```
 set nu cindent smartindent autoindent
