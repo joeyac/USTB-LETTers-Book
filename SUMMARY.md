@@ -24,6 +24,7 @@
 * [矩阵](ju-zhen.md)
   * [矩阵类 && 常系数线性齐次递推](ju-zhen/ju-zhen-lei-andand-chang-xi-shu-xian-xing-qi-ci-di-tui.md)
 * [数据结构](shu-ju-jie-gou.md)
+  * [可持久化线段树（主席树）](shu-ju-jie-gou/ke-chi-jiu-hua-xian-duan-shu-ff08-zhu-xi-shu-ff09.md)
 * [字符串](zi-fu-chuan.md)
   * [后缀自动机](zi-fu-chuan/hou-zhui-zi-dong-ji.md)
   * [后缀数组](zi-fu-chuan/hou-zhui-shu-zu.md)
