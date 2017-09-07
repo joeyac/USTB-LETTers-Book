@@ -28,6 +28,7 @@
 * [字符串](zi-fu-chuan.md)
   * [后缀自动机](zi-fu-chuan/hou-zhui-zi-dong-ji.md)
   * [后缀数组](zi-fu-chuan/hou-zhui-shu-zu.md)
+  * [KMP和扩展KMP](zi-fu-chuan/kmp.md)
 * [多项式](duo-xiang-shi.md)
   * [高次方程求实根](duo-xiang-shi/gao-ci-fang-cheng-qiu-shi-gen.md)
 * [其他](qi-ta.md)
