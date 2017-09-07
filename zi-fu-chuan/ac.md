@@ -75,7 +75,7 @@ struct Trie {
 
 [http://acm.hdu.edu.cn/showproblem.php?pid=3247](http://acm.hdu.edu.cn/showproblem.php?pid=3247)
 
-
+构造AC自动机，建立每个串尾到其它串尾的距离，然后状压出最小距离。
 
 ```cpp
 # include <bits/stdc++.h>
