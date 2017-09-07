@@ -1,7 +1,5 @@
 # KMP
 
-## Template
-
 ```cpp
 int nxt[N];
 int g[N][M];
