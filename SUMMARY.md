@@ -36,4 +36,5 @@
 * [其他](qi-ta.md)
   * [读题套路（nbyby）](qi-ta/du-ti-tao-lu-ff08-nbyby.md)
   * [用prufer生成随机树](qi-ta/yong-prufer-sheng-cheng-sui-ji-shu.md)
+  * [Vim配置文件](qi-ta/vimpei-zhi-wen-jian.md)
 
