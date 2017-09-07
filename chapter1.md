@@ -41,7 +41,7 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 
 * [ ] Splay
 * [ ] LCT
-* [ ] 
+
 ### 字符串
 
 ### 多项式
