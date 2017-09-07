@@ -40,7 +40,8 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 ### 数据结构
 
 * [ ] Splay
-
+* [ ] LCT
+* [ ] 
 ### 字符串
 
 ### 多项式
