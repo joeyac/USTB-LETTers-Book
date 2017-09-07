@@ -6,6 +6,10 @@
 
 **F8** 用F2新建的输入文件作为输入来运行程序
 
+**\[\[** 输入{ }
+
+**F3 **显示自定义模版
+
 ```
 set nu cindent smartindent autoindent
 set mouse=a ts=4 sw=4
