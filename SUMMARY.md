@@ -32,4 +32,5 @@
   * [高次方程求实根](duo-xiang-shi/gao-ci-fang-cheng-qiu-shi-gen.md)
 * [其他](qi-ta.md)
   * [读题套路（nbyby）](qi-ta/du-ti-tao-lu-ff08-nbyby.md)
+  * 用prufer生成随机树
 
