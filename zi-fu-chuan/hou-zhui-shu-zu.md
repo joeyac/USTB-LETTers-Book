@@ -43,6 +43,22 @@ void da(int str[], int sa[], int rank[], int height[], int n, int m) {
         height[rank[i]] = k;
     }
 }
+
+void printSA(int *r,int *sa,int *rk,int *height,int n)
+{
+    int i,j;
+    cout<<"i\tsuffixArray[i]\t\theight[i]\tsuffix[i]"<<endl;
+    for (i=0;i<=n;i++)
+    {
+        cout<<i<<"\t\t"<<sa[i]<<"\t\t"<<height[i]<<"\t\t";
+        for (j=sa[i];r[j]!=0;j++)
+        {
+            // cout<<r[j]<<" "; 
+            cout<<(char)r[j]<<" "; 
+        }
+        cout<<endl;
+    }
+}
 ```
 
 ## Problem
