@@ -39,6 +39,7 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 
 ### 数据结构
 
+* [ ] 
 ### 字符串
 
 ### 多项式
@@ -46,4 +47,6 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 ### 其他
 
 * [x] 读题套路（**nbyby**）
+
+
 
