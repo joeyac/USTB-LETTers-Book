@@ -9,6 +9,7 @@ plugins:
 
 * [ ] C++ STL
 * [ ] Java \(**crazyX**\)
+* [x] Linux对拍程序（**crazyX**）
 
 ### [常见错误](/chang-jian-ji-chu-cuo-wu-andand-letters-wa-check-list.md) && [LETTers WA Check List](/chang-jian-ji-chu-cuo-wu-andand-letters-wa-check-list/letters-wa-check-list.md)
 
