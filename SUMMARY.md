@@ -9,6 +9,7 @@
       * [重定向输入输出](yu-yan-xiang-guan/java/mo-ban/zhong-ding-xiang-shu-ru-shu-chu.md)
   * [C++](yu-yan-xiang-guan/c++.md)
     * [输入挂](yu-yan-xiang-guan/c++/shu-ru-gua.md)
+  * [Linux对拍程序](yu-yan-xiang-guan/linuxdui-pai-cheng-xu.md)
 * [常见错误](chang-jian-ji-chu-cuo-wu-andand-letters-wa-check-list.md)
 * [LETTers WA Check List](chang-jian-ji-chu-cuo-wu-andand-letters-wa-check-list/letters-wa-check-list.md)
 * [基础](ji-chu.md)
