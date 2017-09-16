@@ -16,6 +16,7 @@
   * [折半枚举](ji-chu/zhe-ban-mei-ju.md)
 * [搜索](sou-suo.md)
 * [图论](tu-lun.md)
+  * [LCA](tu-lun/lca.md)
 * [动态规划](dong-tai-gui-hua.md)
   * [我的一些DP理解（nbyby）](dong-tai-gui-hua/wo-de-yi-xie-dp-li-jie.md)
 * [数学](shu-xue.md)
