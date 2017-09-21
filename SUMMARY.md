@@ -17,6 +17,7 @@
 * [搜索](sou-suo.md)
 * [图论](tu-lun.md)
   * [LCA](tu-lun/lca.md)
+  * [强联通分量缩点](tu-lun/qiang-lian-tong-fen-liang-suo-dian.md)
 * [动态规划](dong-tai-gui-hua.md)
   * [我的一些DP理解（nbyby）](dong-tai-gui-hua/wo-de-yi-xie-dp-li-jie.md)
 * [数学](shu-xue.md)
