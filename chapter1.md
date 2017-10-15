@@ -47,7 +47,16 @@ Author：based from **nbyby **and **smile**, extended by **crazyX**
 
 ### 字符串
 
-### 多项式
+### 多项式（crazyX: 天坑）
+
+* [ ] FFT
+* [ ] NTT
+* [ ] MTT（有望取代慢的要死的NTT）
+* [ ] 多项式求逆
+* [ ] 多项式除法
+* [ ] 多项式取模
+* [ ] 多项式多点求值和快速插值
+* [x] 高次方程求实根
 
 ### 其他
 
