@@ -80,8 +80,6 @@ int main() {
 }
 ```
 
-
-
 ## 模板\(Anonymous\)
 
 ```cpp
@@ -90,7 +88,7 @@ using namespace std;
 const int maxn = 2e6+233;  
 #define DB double  
 const DB pi = acos(-1);  
-  
+
 struct CP {  
     DB x, y; CP(){} inline CP(DB a, DB b):x(a),y(b){}  
     inline CP operator + (const CP&r) const { return CP(x + r.x, y + r.y); }  
@@ -98,15 +96,15 @@ struct CP {
     inline CP operator * (const CP&r) const { return CP(x*r.x-y*r.y, x*r.y+y*r.x); }  
     inline CP conj() { return CP(x, -y); }  
 } a[maxn], b[maxn], t;  
-  
+
 int n, m;  
 inline void Swap(CP&a, CP&b) { t = a; a = b; b = t; }  
 const int BUF=8096000,OUT=8000000;  
-  
+
 char Buf[BUF],*buf=Buf,Out[OUT],*ou=Out;int Outn[64],Outcnt;  
 inline int read() {int a;for(a=0;*buf<48;buf++);while(*buf>47)a=a*10+*buf++-48;return a;}  
 inline void print(int x){ if(!x) *ou ++ = 48; else { for(Outcnt=0;x;x/=10) Outn[++Outcnt]=x%10+48; while(Outcnt)*ou++=Outn[Outcnt--]; } *ou++=' '; }  
-  
+
 void FFT(CP*a, int n, int f) {  
     int i, j, k;  
     for(i = j = 0; i < n; ++ i) {  
@@ -137,7 +135,7 @@ int main() {
     for(int i = 0; i <= m; ++ i) print(int(b[i].x+0.2));  
     fwrite(Out, 1, ou-Out, stdout);  
     return 0;  
-}  
+}
 ```
 
 
