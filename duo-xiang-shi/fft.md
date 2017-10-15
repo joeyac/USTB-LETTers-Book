@@ -6,7 +6,7 @@
 
 maxn应该设为大于n的最小的2^k次方的两倍。
 
-## 模板\(crazyX\)
+## 模板\(crazyX\)（！实测下面那个板子常数更小，大约1/3）
 
 ```cpp
 #include<bits/stdc++.h>
