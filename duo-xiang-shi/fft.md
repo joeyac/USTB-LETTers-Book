@@ -6,8 +6,6 @@
 
 maxn应该设为大于n的最小的2^k次方的两倍。
 
-
-
 ## 模板2.0（crazyX）
 
 常数巨小的好板子……
@@ -53,23 +51,23 @@ void FFT(CP*a, int n, int f) {
 }
 
 int polyMul(int a[], int alen, int b[], int blen, int c[]) {// c not in {a, b}
-	int len, clen = alen + blen; // optional: parameter
-	for(len = 1; len <= alen + blen; len <<= 1);
-	
-	for(int i = 0; i < len; i++) {
-		A[i].x = i < alen ? a[i] : 0;
-		A[i].y = i < blen ? b[i] : 0;
-	}
-	
-	FFT(A, len, 1); CP Q(0, -0.25);
-	for(int i = 0, j; i < len; i++)
-		j = (len - i) & (len - 1),
-		B[i] = (A[i] * A[i] - (A[j] * A[j]).conj() ) * Q;
-	FFT(B, len, -1);
-	
-	for(int i = 0; i < clen; i++) c[i] = (int)(B[i].x + 0.5);
-	
-	return clen;
+    int len, clen = alen + blen; // optional: parameter
+    for(len = 1; len <= alen + blen; len <<= 1);
+
+    for(int i = 0; i < len; i++) {
+        A[i].x = i < alen ? a[i] : 0;
+        A[i].y = i < blen ? b[i] : 0;
+    }
+
+    FFT(A, len, 1); CP Q(0, -0.25);
+    for(int i = 0, j; i < len; i++)
+        j = (len - i) & (len - 1),
+        B[i] = (A[i] * A[i] - (A[j] * A[j]).conj() ) * Q;
+    FFT(B, len, -1);
+
+    for(int i = 0; i < clen; i++) c[i] = (int)(B[i].x + 0.5);
+
+    return clen;
 }
 //           FFT           //
 
@@ -79,39 +77,41 @@ int ans[maxN], a[maxn], b[maxn], n, m;
 //Main Program
 int main()
 {
-	while (scanf("%s%s",s1, s2) != EOF) {
-		n=strlen(s1); m=strlen(s2);
-		for (int i = 0; i < n; i += 1)a[i] = s1[n-1-i] - '0';
-		for (int i = 0; i < m; i += 1)b[i] = s2[m-1-i] - '0';
-		
-		int len = polyMul(a, n, b, m, ans);
-		
-		
-		for (int i = 0; i < len; i += 1){
-			ans[i+1]+=ans[i]/10;
-			ans[i]%=10;
-		}
-		bool flag=false;
-		for (int i = len - 1; i >= 0; i += -1){
-			if(flag||ans[i]){
-				flag=true;
-				printf("%d",ans[i]);
-			}
-		}
-		if(!flag)printf("%d",0);
-		printf("\n");
-	}
-	return 0;
+    while (scanf("%s%s",s1, s2) != EOF) {
+        n=strlen(s1); m=strlen(s2);
+        for (int i = 0; i < n; i += 1)a[i] = s1[n-1-i] - '0';
+        for (int i = 0; i < m; i += 1)b[i] = s2[m-1-i] - '0';
+
+        int len = polyMul(a, n, b, m, ans);
+
+
+        for (int i = 0; i < len; i += 1){
+            ans[i+1]+=ans[i]/10;
+            ans[i]%=10;
+        }
+        bool flag=false;
+        for (int i = len - 1; i >= 0; i += -1){
+            if(flag||ans[i]){
+                flag=true;
+                printf("%d",ans[i]);
+            }
+        }
+        if(!flag)printf("%d",0);
+        printf("\n");
+    }
+    return 0;
 }
 ```
 
-## 模板\(crazyX\)（！实测下面那个板子常数更小，大约1/3）
+## 模板\(crazyX\)
+
+常数有一些，不过基本够用，不会被卡
 
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
-//           FFT           //
+//   ，        FFT           //
 typedef double var;
 //typedef long double var;
 
