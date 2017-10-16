@@ -38,6 +38,7 @@
   * [高次方程求实根](duo-xiang-shi/gao-ci-fang-cheng-qiu-shi-gen.md)
   * [FFT](duo-xiang-shi/fft.md)
   * [MTT](duo-xiang-shi/mtt.md)
+  * [FFT用到的各种素数](duo-xiang-shi/fftyong-dao-de-ge-zhong-su-shu.md)
 * [其他](qi-ta.md)
   * [读题套路（nbyby）](qi-ta/du-ti-tao-lu-ff08-nbyby.md)
   * [用prufer生成随机树](qi-ta/yong-prufer-sheng-cheng-sui-ji-shu.md)
