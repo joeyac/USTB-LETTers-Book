@@ -34,6 +34,7 @@
   * [KMP和扩展KMP](zi-fu-chuan/kmp.md)
   * [AC自动机](zi-fu-chuan/ac.md)
   * [Manacher](zi-fu-chuan/manacher.md)
+  * [回文树](zi-fu-chuan/hui-wen-shu.md)
 * [多项式](duo-xiang-shi.md)
   * [高次方程求实根](duo-xiang-shi/gao-ci-fang-cheng-qiu-shi-gen.md)
   * [FFT](duo-xiang-shi/fft.md)
