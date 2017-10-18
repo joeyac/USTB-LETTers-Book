@@ -10,6 +10,10 @@ maxn应该设为大于n的最小的2^k次方的两倍。
 
 常数巨小的好板子……
 
+主要使用了这个博客里提到的优化：[FFT黑科技](http://blog.csdn.net/samjia2000/article/details/65661468)
+
+减少了DFT的次数
+
 题目：[a times b](https://dmoj.ca/problem/atimesb)
 
 ```cpp
@@ -105,7 +109,7 @@ int main()
 
 ## 模板\(crazyX\)
 
-常数有一些，不过基本够用，不会被卡
+常数有一些，不过基本够用，一般~~不会被卡~~
 
 ```cpp
 #include<bits/stdc++.h>
