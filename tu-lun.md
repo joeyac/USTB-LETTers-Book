@@ -1,4 +1,7 @@
 ```cpp
+/*
+HDU 4694
+*/
 # include <bits/stdc++.h>
 using namespace std;
 typedef long long LL;
@@ -30,7 +33,7 @@ void dfs(int p) {
 
 void work() {
     int p;
-    dfs(n);
+    dfs(n);                                                     // DFS 根节点，这里 n 是根节点
     for(int i=tot;i>=2;i--) {
         p=idx[i];
         for(int k:pre[p])
@@ -72,7 +75,7 @@ int main() {
     freopen("in.txt", "r", stdin);
 # endif
     while (~scanf("%d%d", &n, &m)) {
-        init(n, m);
+        init(n, m);                                                  // n 是点数， m 是边数
 
         int a, b;
         for (int i = 0; i < m; i++) {
